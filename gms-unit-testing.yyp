@@ -123,7 +123,7 @@
     {"id":{"name":"spr_player_putDown_down","path":"sprites/spr_player_putDown_down/spr_player_putDown_down.yy",},"order":20,},
     {"id":{"name":"seq_mainTitle","path":"sequences/seq_mainTitle/seq_mainTitle.yy",},"order":7,},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":1,},
-    {"id":{"name":"be_greater_than_or_equal","path":"scripts/be_greater_than_or_equal/be_greater_than_or_equal.yy",},"order":3,},
+    {"id":{"name":"be_greater_than_or_equal_to","path":"scripts/be_greater_than_or_equal_to/be_greater_than_or_equal_to.yy",},"order":3,},
     {"id":{"name":"obj_store01","path":"objects/obj_store01/obj_store01.yy",},"order":5,},
     {"id":{"name":"spr_seq_bgEffect03","path":"sprites/spr_seq_bgEffect03/spr_seq_bgEffect03.yy",},"order":7,},
     {"id":{"name":"snd_seq_good02_BGM","path":"sounds/snd_seq_good02_BGM/snd_seq_good02_BGM.yy",},"order":11,},

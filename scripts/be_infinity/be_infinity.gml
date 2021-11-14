@@ -1,5 +1,5 @@
 /// @func	be_infinity();
-function be_infinity(){
+function be_infinity() {
 	// error checking and syntax enforcement.
 	check_if_inside_describe(true);
 	check_if_inside_it(true);

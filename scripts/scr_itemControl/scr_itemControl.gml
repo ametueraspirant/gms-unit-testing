@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_itemPosition(){
+function scr_itemPosition() {
 	var _x, _y, _depth;
 	if (instance_exists(obj_player)) {
 		switch obj_player.dir {

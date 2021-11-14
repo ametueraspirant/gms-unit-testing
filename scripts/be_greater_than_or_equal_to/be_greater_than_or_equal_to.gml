@@ -1,6 +1,6 @@
-/// @func	be_equal_to(_term);
+/// @func	be_greater_than_or_equal_to(_term);
 /// @param	{int}	_term	the integer term to compare the data to.
-function be_equal_to(_term) {
+function be_greater_than_or_equal_to(_term) {
 	// error checking and syntax enforcement.
 	check_if_inside_describe(true);
 	check_if_inside_it(true);
@@ -9,12 +9,12 @@ function be_equal_to(_term) {
 	check_if_both_terms_are_numeric();
 	
 	// add data to the chain and stack.
-	str += " be equal to " + string(_term);
+	str += " be greater than or equal to " + string(_term);
 	prev = CHAIN_FUNC.COMPARE;
 	
-	if(data == _term && !is_not) {
+	if(data >= _term && !is_not) {
 		array_push(res, true);
-	} else if(data != _term && is_not) {
+	} else if(data < _term && is_not) {
 		array_push(res, true);
 	} else {
 		array_push(res, false);

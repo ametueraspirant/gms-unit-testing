@@ -1,5 +1,5 @@
 /// @func	be_real();
-function be_real(){
+function be_real() {
 	// error checking and syntax enforcement.
 	check_if_inside_describe(true);
 	check_if_inside_it(true);

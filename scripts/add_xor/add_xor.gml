@@ -1,5 +1,5 @@
 /// @func	add_xor();
-function add_xor(){
+function add_xor() {
 	// error checking and syntax enforcement.
 	check_if_inside_describe(true);
 	check_if_inside_it(true);

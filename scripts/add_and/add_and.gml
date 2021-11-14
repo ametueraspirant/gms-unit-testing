@@ -1,5 +1,5 @@
 /// @func add_and();
-function add_and(){
+function add_and() {
 	// error checking and syntax enforcement.
 	check_if_inside_describe(true);
 	check_if_inside_it(true);

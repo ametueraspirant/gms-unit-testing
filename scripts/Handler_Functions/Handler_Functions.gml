@@ -96,6 +96,10 @@ function check_if_after_compare() {
 function check_if_after_positivator() {
 	if(prev != CHAIN_FUNC.POSITIVATOR)show_error("a function expected to be placed after a positivator function was not, examples: to, not_to.", true);
 }
+
+function check_if_both_terms_are_numeric() {
+	if(!is_numeric(data) || !is_numeric(_term))show_error("one or both of the two terms compared are not numeric. Please make sure to only compare equality between numbers.", true);
+}
 #endregion
 
 enum CHAIN_FUNC {

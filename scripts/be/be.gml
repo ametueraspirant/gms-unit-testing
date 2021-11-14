@@ -1,6 +1,6 @@
 /// @func	be(term);
 ///	@param	{any}	_term	the variable term to compare data to.
-function be(_term){
+function be(_term) {
 	// error checking and syntax enforcement.
 	check_if_inside_describe(true);
 	check_if_inside_it(true);
@@ -8,7 +8,7 @@ function be(_term){
 	check_if_after_positivator();
 	
 	// add data to the chain and stack.
-	str += " be " + _term;
+	str += " be " + string(_term);
 	prev = CHAIN_FUNC.COMPARE;
 	
 	if(data == _term && !is_not) {

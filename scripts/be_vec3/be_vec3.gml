@@ -1,5 +1,5 @@
 /// @func	be_vec3();
-function be_vec3(){
+function be_vec3() {
 	// error checking and syntax enforcement.
 	check_if_inside_describe(true);
 	check_if_inside_it(true);

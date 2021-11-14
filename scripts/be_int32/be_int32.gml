@@ -1,5 +1,5 @@
 /// @func	be_int32();
-function be_int32(){
+function be_int32() {
 	// error checking and syntax enforcement.
 	check_if_inside_describe(true);
 	check_if_inside_it(true);

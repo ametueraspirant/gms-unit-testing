@@ -1,6 +1,6 @@
 /// @func	expect(data);
 /// @param	{any}	_data	the data input to expect things from.
-function expect(_data){
+function expect(_data) {
 	// error checking and syntax enforcement.
 	check_if_inside_describe(true);
 	check_if_inside_it(true);
