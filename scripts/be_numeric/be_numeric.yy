@@ -6,7 +6,7 @@
     "path": "folders/Lester/Type_Functions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "be_numeral",
+  "name": "be_numeric",
   "tags": [],
   "resourceType": "GMScript",
 }

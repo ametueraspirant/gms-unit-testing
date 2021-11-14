@@ -68,7 +68,7 @@
     {"id":{"name":"spr_item02","path":"sprites/spr_item02/spr_item02.yy",},"order":1,},
     {"id":{"name":"spr_title_thankYou","path":"sprites/spr_title_thankYou/spr_title_thankYou.yy",},"order":9,},
     {"id":{"name":"spr_grass01","path":"sprites/spr_grass01/spr_grass01.yy",},"order":4,},
-    {"id":{"name":"be_numeral","path":"scripts/be_numeral/be_numeral.yy",},"order":4,},
+    {"id":{"name":"be_numeric","path":"scripts/be_numeric/be_numeric.yy",},"order":4,},
     {"id":{"name":"after_each","path":"scripts/after_each/after_each.yy",},"order":1,},
     {"id":{"name":"obj_npc_baker","path":"objects/obj_npc_baker/obj_npc_baker.yy",},"order":0,},
     {"id":{"name":"spr_baker_happy","path":"sprites/spr_baker_happy/spr_baker_happy.yy",},"order":2,},
