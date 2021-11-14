@@ -15,28 +15,10 @@ global.__stack = {
 		stack: []
 	},
 	expect_state: {
-		init: false,
 		current: -1,
 		stack: []
 	}
 }
-
-/*  /// may swap to this in the future, 3 smaller global objects instead of one big one.
-global.__describe_state = {
-	goal: "",
-	init: false
-}
-global.__it_state = {
-	init: false,
-	current: -1,
-	stack: []
-}
-global.__expect_state = {
-	init: false,
-	current: -1,
-	stack: []
-}
-*/
 
 #region // main function handlers
 function describe_set(_string) {

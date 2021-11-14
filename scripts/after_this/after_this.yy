@@ -6,7 +6,7 @@
     "path": "folders/Lester/Global_Functions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "while_each",
+  "name": "after_this",
   "tags": [],
   "resourceType": "GMScript",
 }

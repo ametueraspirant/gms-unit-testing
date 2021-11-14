@@ -9,11 +9,16 @@ function it(_string, _func){
 	
 	_func();							// run the internal function.
 	
-	// xor
+	var int = 0;
+	repeat(array_length(global.__stack.describe_state.stack)) {
+		// xor
 	
-	// and
+		// and
 	
-	// or
+		// or
+		
+		int++;
+	}
 	
 	it_reset();							// reset the it stack.
 }
