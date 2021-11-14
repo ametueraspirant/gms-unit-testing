@@ -18,7 +18,6 @@
     {"id":{"name":"scr_promptControl","path":"scripts/scr_promptControl/scr_promptControl.yy",},"order":0,},
     {"id":{"name":"contain_sequential","path":"scripts/contain_sequential/contain_sequential.yy",},"order":1,},
     {"id":{"name":"spr_baker_walk_down","path":"sprites/spr_baker_walk_down/spr_baker_walk_down.yy",},"order":4,},
-    {"id":{"name":"be_matrix","path":"scripts/be_matrix/be_matrix.yy",},"order":12,},
     {"id":{"name":"spr_player_putDown_up","path":"sprites/spr_player_putDown_up/spr_player_putDown_up.yy",},"order":23,},
     {"id":{"name":"spr_teacher_walk_down","path":"sprites/spr_teacher_walk_down/spr_teacher_walk_down.yy",},"order":3,},
     {"id":{"name":"before_all","path":"scripts/before_all/before_all.yy",},"order":6,},

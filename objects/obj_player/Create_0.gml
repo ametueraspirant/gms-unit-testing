@@ -65,3 +65,9 @@ playerSpr[playerState.puttingDown][0] = spr_player_putDown_right;
 playerSpr[playerState.puttingDown][1] = spr_player_putDown_up;
 playerSpr[playerState.puttingDown][2] = spr_player_putDown_left;
 playerSpr[playerState.puttingDown][3] = spr_player_putDown_down;
+
+try {
+	
+} catch(_error) {
+	
+}
