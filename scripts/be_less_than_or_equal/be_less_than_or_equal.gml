@@ -1,6 +1,6 @@
-/// @func	be_less_than(_term);
+/// @func	be_less_than_or_equal(_term);
 /// @param	{int}	_term	the integer term to compare the data to.
-function be_less_than(_term) {
+function be_less_than_or_equal(_term) {
 	// error checking and syntax enforcement.
 	check_if_inside_describe(true);
 	check_if_inside_it(true);

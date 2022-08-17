@@ -73,7 +73,7 @@ function check_if_inside_it(that_a_good_thing) {
 	if(that_a_good_thing) {
 		if(!global.__stack.it_state.init)show_error("a function expected within 'it' event was not in 'it' event.", true);
 	} else {
-		if(global.__stack.describe_state.init)show_error("a function not expected within 'it' event was in 'it' event.", true);
+		if(global.__stack.it_state.init)show_error("a function not expected within 'it' event was in 'it' event.", true);
 	}
 }
 
@@ -86,19 +86,23 @@ function check_if_is_chain_start(that_a_good_thing) {
 }
 
 function check_if_after_logic() {
-	if(prev != CHAIN_FUNC.LOGIC)show_error("a function expected to be placed after a logical function was not, examples: expect, and, or, and xor.", true);
+	if(prev != CHAIN_FUNC.LOGIC)show_error("A function expected to be placed after a logical function was not, examples: expect, and, or, and xor.", true);
 }
 
 function check_if_after_compare() {
-	if(prev != CHAIN_FUNC.COMPARE)show_error("a function expected to be placed after a comparitor function was not, examples: be, be_equal, be_array, be_greater_than.", true);
+	if(prev != CHAIN_FUNC.COMPARE)show_error("A function expected to be placed after a comparitor function was not, examples: be, be_equal, be_array, be_greater_than.", true);
 }
 
 function check_if_after_positivator() {
-	if(prev != CHAIN_FUNC.POSITIVATOR)show_error("a function expected to be placed after a positivator function was not, examples: to, not_to.", true);
+	if(prev != CHAIN_FUNC.POSITIVATOR)show_error("A function expected to be placed after a positivator function was not, examples: to, not_to.", true);
 }
 
 function check_if_both_terms_are_numeric() {
-	if(!is_numeric(data) || !is_numeric(_term))show_error("one or both of the two terms compared are not numeric. Please make sure to only compare equality between numbers.", true);
+	if(!is_numeric(data) || !is_numeric(_term))show_error("One or both of the two terms compared are not numeric. Please make sure to only compare equality between numbers.", true);
+}
+
+function check_if_both_terms_are_same_type() {
+	if(typeof(data) != typeof(_term))show_error("Both terms must be of the same type to be compared in this way.", true);
 }
 #endregion
 
