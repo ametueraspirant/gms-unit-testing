@@ -6,6 +6,7 @@ function return_with() {
 	check_if_inside_it(true);
 	check_if_is_chain_start(false);
 	check_if_after_positivator();
+	check_if_both_terms_are_same_type();
 	
 	
 }
